@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+ max-width: 1980px;
+ margin: 0 auto;
+}
+
+
+nav{
+    padding: 1rem;
+    background-color: #78D576;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+ font-size: 2rem;
+ color: #5cb4b4;
+  text-decoration: none;
+}
+
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0 1rem;
+}
+
+
+.menu li a{
+    color: #FFFC4D;
+    text-decoration: none;
+}
+
+.maincontent-con{
+    background-color: #ceb213;
+}
+
+.maincontent-con{
+ display: flex;
+
+}
+
+
+.maincontent-info{
+    width: 100%;
+    padding: 3rem;
+}
+
+.maincontent-info h3{
+    font-size: 2rem; background: color #ce9519;;
+}
+
+.maincontent-info p{
+ margin: 2rem 0;
+}
+
+.maincontent-info .maincontent-btn{
+    background-color: #543270;
+    color: #d1b5b0;
+    padding: 0.5rem;
+    border-radius: 200px;
+     text-decoration: none;
+}
+
+.maincontent-img img{
+ width: 50%;
+ padding: 2rem;
+ border-radius: 500px;
+}
+
+.content-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4rem;
+}
+
+
+
+.content-item img{
+    width: 70%;
+}
+
+.content-item h4{
+    margin-top: 3rem 0;
+}
+
+.content-item p{
+    margin: 2rem 0;
+}
+
+.content-item a{
+    display: inline-block;
+    color: rgb(63, 178, 34);
+    background-color: rgb(126, 49, 161);
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.footer-top{
+    margin: 2rem;
+    padding: 3rem;
+    background-color: #427524;
+    color: #78D576;
+}
+
+
+.footer-top-con{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con{
+ display: flex;
+ margin: 1rem 0;
+}
+
+.footer-top-item-con .date{
+    background-color: darkgray;
+    color: fuchsia;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h4
+.footer-top-item:nth-child(3) h4{
+    margin-bottom: 1rem;
+}
+
+
+.footer-button{
+    background-color: #7a3428;
+    padding: 1rem;
+    text-align: center;
+}
+
